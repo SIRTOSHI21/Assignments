@@ -4,29 +4,55 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>WEEK4ZURITASK</title>
+  <title>ZURI ASSIGNMENT</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
- <main>
-        <div class="div1">
-<h2 color="white">
-    SEDANS  
-</h2>
-<p><small>Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip.</small></p>
-<button><small>Learn More</small></button>
-        </div>
-        <div class="div2">
-            <h2> SUVS</h2>
-            <p><small>Take an SUV for its spacious interior, power, and versatility.Perfect for your next family vacation and off-road adventures.</p></small>
-            <button><small>Learn More</small></button>
-        </div>
-<div class="div3">
-    <h2>LUXURY</h2>
-    <p><small>Cruise in the best car brands without the bloated prices, Enjoy the enhanced comfort of a luxury rental and arrive in style.</p></small>
-    <button><small>Learn More</small></button>
-</div>
-    </main> 
+  <header>
+  <h1><u>REGISTRATION</u></h1>
+    <p><i>Input the required information below.</p></i>
+  </header><hr>
+  <main>
+     <form action="success.html">
+    <div class="container">
+    <label>First name</label>
+   <input type="text" placeholder="tosin" name="firstname" id="name" required>
+ <label>Last name</label>
+<input type="text" placeholder="Last name" name="last name" id="lastname" required>
+   <label>
+    Phone number
+    </label>
+ <input type="text" placeholder="Phone Number" required>
+  <label>
+      Email
+    </label>
+ <input type="text" placeholder="Email" required>
+      <label>Password</label>
+      <input type="password" placeholder="input your password" name="password" id="pword" required >
+      <br>
+  <label for="Gender">Confirm Your Gender:</label>
+  <select name="sex" id="sex" required>
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+    <option value="Prefer not to Say">No comment</option>
+  </select>
+  <br>
+<br>
+    <p><label for="birthday">Date of Birth:</label></p>
+    <input type="date" id="birthday" name="Date of birth">
+    <br>
+    <p><label for="favcolor">Favourite Color:</label></p>
+      <input type="color" id="favcolor" name="Favourite Color"> 
+      </form>
+    </p> 
+    <br>
+ <input type="submit" class="regbtn" value="Submit">
+    </div>
+  </main>
 </body>
-
+  <hr>
+<footer>
+  <p>Have an account already?</p>
+  <p><a href=submit.html >Login</a></p>
+</footer>
 </html>

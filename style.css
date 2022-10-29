@@ -16,7 +16,7 @@ figure,
 blockquote,
 dl,
 dd {
- 
+  margin: 0;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
@@ -32,10 +32,10 @@ html:focus-within {
 
 /* Set core body defaults */
 body {
-  min-height: 100vh;
+  height: 100%;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  background-color: rgb(228, 217, 217);
+  font-size: 17px;
 }
 
 /* A elements that don't have a class get default styles */
@@ -73,49 +73,29 @@ select {
     scroll-behavior: auto !important;
   }
 }
-main{
-width: 50%;
-margin: auto;
-display:flex;
-justify-content: center;
-align-items: center;
-height: 100vh;
-}
-div{
-    padding: 50px;
-    color: white;
-}
-.div1{
-    background-color: rgb(218, 141, 25);
-    width:100%;
-}
-.div1 button{
-    background-color: rgb(218, 141, 25);
-    border-radius: 30%;
-    color: white;
-    border-color: white;
-}
-.div2{
-background-color: rgb(14, 152, 129) ;
-width:100%;
-}
-.div2 button{
-    background-color: rgb(14, 152, 129);
-    border-radius: 30%;
-    color: white;
-    border-color: white;
-}
-.div3{
-background-color: rgb(13, 54, 23);
-width:100%;
-}
-.div3 button{
-    background-color: rgb(13, 54, 23);
-    border-radius: 30%;
-    color: white;
-    border-color: white;
-}
-h2{
-font-family: sans-serif ;
-}
 
+a{
+  text-decoration: none;
+}
+.container{
+  width: 70%;
+}
+input{
+  width: 100%;
+  padding: 10px;
+  background-color: #f1f1f1;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  border: none;
+}
+input:focus{
+  background-color: #ddd;
+}
+.regbtn{
+  width: 100%;
+  border-radius: 50px;
+  border: none;
+}
+#favcolor{
+  width: 50%;
+}
