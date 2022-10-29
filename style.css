@@ -35,7 +35,7 @@ body {
   height: 100%;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 /* A elements that don't have a class get default styles */
@@ -77,25 +77,15 @@ select {
 a{
   text-decoration: none;
 }
+h3{
+  font-style: sans-serif;
+}
+ul{
+  list-style: none;
+}
 .container{
-  width: 70%;
+font-size: 20px;
 }
-input{
-  width: 100%;
-  padding: 10px;
-  background-color: #f1f1f1;
-  margin-top: 10px;
-  margin-bottom: 5px;
-  border: none;
-}
-input:focus{
-  background-color: #ddd;
-}
-.regbtn{
-  width: 100%;
-  border-radius: 50px;
-  border: none;
-}
-#favcolor{
-  width: 50%;
+.bder{
+  margin: 10px;
 }
